@@ -76,11 +76,13 @@
       margin-bottom: 6px;
     }
 
-    .authors .anon-note {
-      font-size: 0.82rem;
-      color: #7aade8;
-      font-style: italic;
+    .authors a {
+      color: #a8c8f0;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(168,200,240,0.35);
     }
+
+    .authors a:hover { color: #fff; border-bottom-color: #fff; }
 
     /* ── Buttons ── */
     .button-row {
@@ -358,12 +360,13 @@
      HERO
 ════════════════════════════════════════════ -->
 <header class="hero-section">
-  <div class="venue-badge">Under Review · IROS 2025</div>
+  <div class="venue-badge">IROS 2026</div>
 
   <h1>Model Predictive Control of Tensegrity Robots<br>via Contact-Aware Graph Neural Dynamics Model</h1>
 
   <div class="authors" style="margin-top:18px;">
-    <span class="anon-note">Anonymous Authors &mdash; Under Review</span>
+    Nelson Chen &nbsp;&middot;&nbsp; Patrick Meng &nbsp;&middot;&nbsp; Charles Tang &nbsp;&middot;&nbsp; Angelina Degay &nbsp;&middot;&nbsp;
+    Zachary Brei &nbsp;&middot;&nbsp; Rebecca Kramer-Bottiglio &nbsp;&middot;&nbsp; Kostas E. Bekris &nbsp;&middot;&nbsp; Mridul Aanjaneya
   </div>
 
   <div class="button-row">
@@ -372,15 +375,15 @@
       <i class="fa-brands fa-youtube"></i> Video
     </a>
 
-    <!-- Paper: coming soon -->
-    <span class="btn-link btn-coming-soon">
-      <i class="fa-regular fa-file-pdf"></i> Paper &nbsp;<span class="coming-soon-label">Soon</span>
-    </span>
+    <!-- Paper -->
+    <a href="https://arxiv.org/pdf/2609.08958" target="_blank" class="btn-link btn-primary">
+      <i class="fa-regular fa-file-pdf"></i> Paper
+    </a>
 
-    <!-- arXiv: coming soon -->
-    <span class="btn-link btn-coming-soon">
-      <i class="ai ai-arxiv"></i> arXiv &nbsp;<span class="coming-soon-label">Soon</span>
-    </span>
+    <!-- arXiv -->
+    <a href="https://arxiv.org/abs/2609.08958" target="_blank" class="btn-link btn-primary">
+      <i class="ai ai-arxiv"></i> arXiv
+    </a>
 
     <!-- Code: coming soon -->
     <span class="btn-link btn-coming-soon">
@@ -573,14 +576,17 @@
     <h2 class="section-title">BibTeX</h2>
     <div class="bibtex-block" id="bibtex-block">
       <button class="bibtex-copy-btn" onclick="copyBibtex()"><i class="fa-regular fa-copy"></i> Copy</button>
-<pre style="margin:0; color:inherit; background:transparent; padding:0; white-space:pre-wrap;">@inproceedings{anonymous2025tensegrity,
+<pre style="margin:0; color:inherit; background:transparent; padding:0; white-space:pre-wrap;">@inproceedings{chen2026tensegrity,
   title     = {Model Predictive Control of Tensegrity Robots
                via Contact-Aware Graph Neural Dynamics Model},
-  author    = {Anonymous Authors},
+  author    = {Chen, Nelson and Meng, Patrick and Tang, Charles and
+               Degay, Angelina and Brei, Zachary and
+               Kramer-Bottiglio, Rebecca and Bekris, Kostas E. and
+               Aanjaneya, Mridul},
   booktitle = {IEEE/RSJ International Conference on
                Intelligent Robots and Systems (IROS)},
-  year      = {2025},
-  note      = {Under Review}
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2609.08958}
 }</pre>
     </div>
   </div>
